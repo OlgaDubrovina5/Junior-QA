@@ -1,22 +1,35 @@
-Тест-кейсы для проверки работы выпадающего списка (позитивные)
+# Тест-кейсы для проверки работы выпадающего списка (позитивные)
 
-| id тест-кейса  | Название тест-кейса | Предусловия  | Описание шагов | ОР | Комментарий |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| id тест-кейса  | Название тест-кейса | Предусловия  | Описание шагов | ОР |
+| ------------- | ------------- | ------------- | ------------- | -------------  
+| t-1  | Проверка отображения значения списка по умолчанию  | Открыть страницу веб-приложения с выпадающим списком  | Проверить текст, отображаемый на выпадающем списке до начала взаимодействия  | Отображается текст "Код"  | 
+| t-2  | Проверка кликабельности выпадающего списка при клике на сам список  | Открыть страницу веб-приложения с выпадающим списком  | Кликнуть в любой части выпадающего списка, кроме стрелки  | Выпадающий список раскрылся  | 
+| t-3  | Проверка кликабельности выпадающего списка при клике на стрелку  | Открыть страницу веб-приложения с выпадающим списком  | Кликнуть на стрелку  | Выпадающий список раскрылся  |
+| t-4  | Проверка сворачивания списка при клике на стрелку  | Открыть страницу веб-приложения с выпадающим списком  | Кликнуть на стрелку  | Выпадающий список свернулся  | 
+| t-5  | Проверка сворачивания списка при клике вне выпадающего списка  | Открыть страницу веб-приложения с выпадающим списком  | Кликнуть в любой части экрана вне выпадающего списка  | Выпадающий список свернулся  | 
+| t-6  | Проверка сворачивания списка при клике на выпадающий список  | Открыть страницу веб-приложения с выпадающим списком  | Кликнуть в любой части выпадающего списка, кроме стрелки  | Выпадающий список свернулся  | 
+| t-7  | Проверка возможности прокрутки выпадающего списка (при использовании компьютерной мыши)  | Открыть страницу веб-приложения с выпадающим списком  | 1.	Раскрыть выпадающий список любым способом 2.	Выполнить прокрутку колесиком мыши вверх и вниз  | Выпадающий список прокручивается в обоих направлениях  | 
+| t-8  | Проверка возможности прокрутки выпадающего списка (при использовании полосы прокрутки)  | Открыть страницу веб-приложения с выпадающим списком  | 1.	Раскрыть выпадающий список любым способом 2.	Левой кнопкой мыши зажать полосу прокрутки и переместить ее вверх и вниз  | Выпадающий список прокручивается в обоих направлениях  | 
+| t-9  | Проверка возможности прокрутки выпадающего списка (при использовании скольжения пальцем по экрану - для сенсорных устройств)  | Открыть страницу веб-приложения с выпадающим списком  | 1.	Раскрыть выпадающий список любым способом 2.	Скользя пальцем по выпадающему списку, прокрутить его вниз и вверх  | Выпадающий список прокручивается в обоих направлениях  | 
+| t-10  | Проверка количества отображаемых значений при открытии выпадающего списка без его прокрутки  | Открыть страницу веб-приложения с выпадающим списком  | Раскрыть выпадающий список любым способом  | Без прокрутки списка, отображается N шт телефонных кодов  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+
+# Тест-кейсы для проверки работы выпадающего списка (негативные)					
+
+| id тест-кейса  | Название тест-кейса | Предусловия  | Описание шагов | ОР | 
+| ------------- | ------------- | ------------- | ------------- | ------------- 
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
@@ -26,3 +39,18 @@
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
+Перед выполнением данного задания изучала на разных продуктах, как может быть реализована подобная функциональность.
+
+Структура выпадающих списков может быть немного отличающейся, наиболее похожий на задание вариант (и код, и страна в одном списке) - выпадающий список в форме регистрации по номеру телефона, где при вводе кода показывает страну (страны), где такой код встречается. Скрин можно увидеть в прикрепленном файле эксель в листе Пояснения.
+
+В рамках проекта почитала бы документацию и уточнила требования, чтобы понять, как будет реализован выпадающий список, но т.к. в задании конкретика не прописана, решила взять за пример подобную структуру.
+
+Обозначила для себя несколько условий, на основе примера:
+
+1. Можно осуществлять поиск: поиск по коду, а страна прописана автоматичски рядом с нужным кодом.
+2. Список стран в алфавитном порядке
+3. Есть сортировка, при вводе значения (например 1) остаются только страны, где в коде есть данное значение.
+4. Допустимы для ввода при поиске только целые числа
+5. Минимум цифр для ввода - одна, максимум - 4 (максимальное количество, которое встречается в кодировках некоторых стран)
+6. В коде страны допустимо использование однозначных чисел от 1 до 9, а также 0. 
+7. Если введенный код не существует, либо принадлежит стране, которая не доступна, в выпадающем списке не будет отображаться ни одна страна."
